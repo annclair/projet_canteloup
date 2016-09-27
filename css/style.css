@@ -1,0 +1,100 @@
+/* Barre de navigation */
+body{
+  background-color: grey;
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.4);;
+    border : none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color : rgb(240,230,253);
+    padding-right: 30px;
+}
+
+nav a {
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 3px solid black;
+}
+/* Squelette page */
+
+#haut_page{
+  height:150px;
+}
+
+#bas_page{
+  height : 200px;
+}
+
+/* content */
+
+img{
+  width : 100%;
+}
+
+/* tarifs */
+
+.title{
+  background-color: black;
+  border-radius : 50px 50px 0 0 ;
+  margin : 0px 40px 0px 40px;
+
+}
+.title h3 {
+  color: white;
+  margin : 0px 40px 0px 40px;
+}
+.formule, .price{
+  margin : 0px 40px 0px 40px;
+}
+.formule{
+  border-radius: 0 0 50px 50px;
+  margin-bottom : 15px;
+}
+@media (max-width: 600px){
+  .container-fluid{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+  }
+  .pull-left{
+    display : none;
+  }
+}
+/* plan*/
+
+#plan{
+  width : 70%;
+  margin-left : 15%;
+  margin-top : 10%
+}
+
+/*============================
+BODY
+=============================*/
+body {
+    padding-bottom: 70px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.partners {
+display: inline-block;
+}
+
+.button{
+margin-top: 100px;
+}
+
+.panel{
+  margin-bottom : 0px;
+  padding-bottom : 0px;
+}
