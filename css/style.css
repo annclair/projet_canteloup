@@ -86,6 +86,8 @@ ul li {
   list-style-type: none;
 }
 
+/* footer */
+
 .partners {
 display: inline-block;
 }
@@ -97,4 +99,21 @@ margin-top: 100px;
 .panel{
   margin-bottom : 0px;
   padding-bottom : 0px;
+}
+
+.panel-default {
+    background-color: rgba(0, 0, 0, 0.4);
+    border : none;
+}
+.panel-footer {
+  background-color: transparent;
+  border : none;
+}
+
+a {
+  color : rgb(240,230,253);
+}
+
+a:hover{
+  color : rgb(240,230,253);
 }
