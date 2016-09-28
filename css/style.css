@@ -27,9 +27,9 @@ nav a:hover {
   height:150px;
 }
 
-#bas_page{
+/*#bas_page{
   height : 200px;
-}
+}*/
 
 /* content */
 
@@ -49,6 +49,19 @@ img{
   color: white;
   margin : 0px 40px 0px 40px;
 }
+
+.title .vue{
+  font-size: 3em;
+}
+
+.vue{
+  margin-top: -50px;
+}
+
+.tarif_vue, .locaux_vue, .internet_vue, .detente_vue, .acces_vue, .reunion_vue{
+  font-size : 1.5em;
+}
+
 .formule, .price{
   margin : 0px 40px 0px 40px;
 }
@@ -74,6 +87,11 @@ img{
   margin-left : 15%;
   margin-top : 10%
 }
+/* Event */
+
+.{
+  border : none;
+}
 
 /*============================
 BODY
@@ -89,11 +107,16 @@ ul li {
 /* footer */
 
 .partners {
-display: inline-block;
+  display: inline-block;
 }
 
+.bouton_up {
+  height : 50px;
+  width: auto;
+  margin-left:0px;
+}
 .button{
-margin-top: 100px;
+  margin-top: 100px;
 }
 
 .panel{
@@ -102,12 +125,13 @@ margin-top: 100px;
 }
 
 .panel-default {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: transparent; /*rgba(0, 0, 0, 0.4);*/
     border : none;
 }
 .panel-footer {
   background-color: transparent;
   border : none;
+  display : none;
 }
 
 a {
